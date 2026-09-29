@@ -2,5 +2,7 @@
   "name": "The Leads Academy - F-8/1 Islamabad",
   "description": "Academic coaching, Cadet College entry tests, Federal Board Matric/F.Sc, Cambridge O/A Levels, and MDCAT/ECAT preparation at Johar Road, F-8/1, Islamabad.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
