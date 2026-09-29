@@ -12,6 +12,7 @@ import {
   ResourceListing
 } from '../data/academyData';
 import { PageId } from '../components/Header';
+import { ACADEMY_IMAGES } from '../assets/images';
 import {
   MapPin,
   Phone,
@@ -185,7 +186,7 @@ Please share current batch timings, seat availability, and fee details for House
               {/* Primary Campus Exterior Photography */}
               <div className="relative rounded-xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900 group">
                 <img
-                  src="/src/assets/images/leads_campus_exterior_1790716926275.jpg"
+                  src={ACADEMY_IMAGES.leadsCampusExterior}
                   alt="The Leads Academy F-8/1 Johar Road Islamabad Campus Exterior"
                   className="w-full h-56 sm:h-64 object-cover object-center group-hover:scale-103 transition-transform duration-700"
                   referrerPolicy="no-referrer"
@@ -286,7 +287,7 @@ Please share current batch timings, seat availability, and fee details for House
             <div className="bg-slate-800/80 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg group">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="/src/assets/images/library_study_hall_1790716939683.jpg"
+                  src={ACADEMY_IMAGES.libraryStudyHall}
                   alt="Quiet study hall and library at The Leads Academy Islamabad"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -310,7 +311,7 @@ Please share current batch timings, seat availability, and fee details for House
             <div className="bg-slate-800/80 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg group">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="/src/assets/images/teacher_mentoring_student_1790716953308.jpg"
+                  src={ACADEMY_IMAGES.teacherMentoringStudent}
                   alt="Teacher guiding high school student through physics derivation at Leads Academy"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -334,7 +335,7 @@ Please share current batch timings, seat availability, and fee details for House
             <div className="bg-slate-800/80 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg group">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="/src/assets/images/hero_academy_learning_1790715589930.jpg"
+                  src={ACADEMY_IMAGES.heroAcademyLearning}
                   alt="Classroom coaching session at The Leads Academy F-8/1"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"

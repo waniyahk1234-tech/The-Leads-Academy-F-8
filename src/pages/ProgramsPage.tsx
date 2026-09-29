@@ -1,6 +1,7 @@
 import React from 'react';
 import { CORE_PROGRAMS, ProgramItem } from '../data/academyData';
 import { PageId } from '../components/Header';
+import { ACADEMY_IMAGES } from '../assets/images';
 import { ArrowRight, BookOpen, CheckCircle } from 'lucide-react';
 
 interface ProgramsPageProps {
@@ -39,9 +40,9 @@ export const ProgramsPage: React.FC<ProgramsPageProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {CORE_PROGRAMS.map((program: ProgramItem) => {
             let imageSrc: string | null = null;
-            if (program.id === 'cadet') imageSrc = '/src/assets/images/cadet_college_prep_1790715613681.jpg';
-            if (program.id === 'cambridge') imageSrc = '/src/assets/images/cambridge_o_a_level_1790715642462.jpg';
-            if (program.id === 'federal' || program.id === 'tenth') imageSrc = '/src/assets/images/science_fsc_mdcat_1790715627285.jpg';
+            if (program.id === 'cadet') imageSrc = ACADEMY_IMAGES.cadetCollegePrep;
+            if (program.id === 'cambridge') imageSrc = ACADEMY_IMAGES.cambridgeOALevel;
+            if (program.id === 'federal' || program.id === 'tenth') imageSrc = ACADEMY_IMAGES.scienceFscMdcat;
 
             return (
               <article

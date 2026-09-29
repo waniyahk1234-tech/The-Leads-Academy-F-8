@@ -1,6 +1,7 @@
 import React from 'react';
 import { ACADEMY_CONFIG, LEARNING_CYCLE } from '../data/academyData';
 import { PageId } from '../components/Header';
+import { ACADEMY_IMAGES } from '../assets/images';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 interface AboutPageProps {
@@ -60,7 +61,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <div className="lg:col-span-6 space-y-4">
               <div className="rounded-xl overflow-hidden border border-slate-200 shadow-md group relative">
                 <img
-                  src="/src/assets/images/teacher_mentoring_student_1790716953308.jpg"
+                  src={ACADEMY_IMAGES.teacherMentoringStudent}
                   alt="Faculty mentoring student at The Leads Academy Islamabad"
                   className="w-full h-64 sm:h-72 object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   referrerPolicy="no-referrer"
