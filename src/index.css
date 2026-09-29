@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Literata", Georgia, Cambria, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  .font-serif,
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+  }
+}
+
