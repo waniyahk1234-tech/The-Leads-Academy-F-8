@@ -57,20 +57,33 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               </p>
             </div>
 
-            <div className="lg:col-span-6">
-              <div className="p-6 sm:p-8 bg-white rounded-lg border border-slate-200 shadow-sm space-y-4">
+            <div className="lg:col-span-6 space-y-4">
+              <div className="rounded-xl overflow-hidden border border-slate-200 shadow-md group relative">
+                <img
+                  src="/src/assets/images/teacher_mentoring_student_1790716953308.jpg"
+                  alt="Faculty mentoring student at The Leads Academy Islamabad"
+                  className="w-full h-64 sm:h-72 object-cover object-center group-hover:scale-102 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-4 text-xs font-semibold text-white">
+                  Concept First Mentorship · F-8/1 Academy
+                </div>
+              </div>
+
+              <div className="p-6 bg-white rounded-lg border border-slate-200 shadow-sm space-y-3">
                 <div className="text-xs font-semibold uppercase text-blue-900 tracking-wider">
                   Campus Overview
                 </div>
-                <div className="font-serif text-xl font-bold text-slate-900">
+                <div className="font-serif text-lg font-bold text-slate-900">
                   {ACADEMY_CONFIG.address}
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   Easily accessible from Sectors F-6, F-7, F-8, F-10, G-8, G-9, and G-10. Quiet residential setting with dedicated study rooms and focused classrooms.
                 </p>
 
-                <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-                  <span className="font-semibold text-slate-900">Direct Inquiries: {ACADEMY_CONFIG.phoneDisplay}</span>
+                <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+                  <span className="font-semibold text-slate-900">Phone: {ACADEMY_CONFIG.phoneDisplay}</span>
                   <button
                     type="button"
                     onClick={() => onNavigate('contact')}

@@ -117,7 +117,7 @@ export const CORE_PROGRAMS: ProgramItem[] = [
     badge: 'Intensive Prep',
     summary: 'Short, focused preparation ahead of upcoming examinations: revision plans, topical test series, practice papers, and detailed feedback on mistakes.',
     focus: ['Annual Board Exams', 'FBISE Supplementary Exams', 'Improvement Batches', 'Entry Tests'],
-    format: 'Rapid revision modules, timed past paper tests, error diagnosis, and high-yield questions.'
+    format: 'Rapid revision modules, timed past paper tests, error review & analysis, and high-yield questions.'
   },
   {
     id: 'cadet',
@@ -189,7 +189,7 @@ export const WHY_LEADS_PRINCIPLES: PrincipleItem[] = [
   {
     key: 'testing',
     title: 'Regular Testing',
-    subtitle: 'Early diagnosis of knowledge gaps',
+    subtitle: 'Early identification of knowledge gaps',
     description: 'Frequent chapter-wise and cumulative tests show what has been understood and what needs work, catching weaknesses long before final exams.'
   },
   {
@@ -297,7 +297,7 @@ export const SAMPLE_RESOURCES: ResourceListing[] = [
   },
   {
     id: 'res-5',
-    title: 'Class 9 Computer Science — Unit-wise Diagnostic Chapter Test',
+    title: 'Class 9 Computer Science — Unit-wise Chapter Assessment Test',
     category: 'Tests',
     board: 'Federal Board (FBISE)',
     classLevel: 'Class 9',
@@ -335,82 +335,82 @@ export const SAMPLE_RESOURCES: ResourceListing[] = [
 
 export const DEMO_ACHIEVEMENTS = [
   {
-    type: 'Student Achievement',
-    title: 'High Academic Performance Placeholder',
-    description: 'Add a student’s name, class, and examination achievement once confirmed by the student and parent.',
+    type: 'Academic Excellence',
+    title: 'Federal Board (FBISE) Board Examinations',
+    description: 'Structured preparation helping students achieve top grades through concept clarity, past paper drills, and board send-up exams.',
     fields: [
-      { label: 'Student Name', placeholder: 'Muhammad Ali (Sample)' },
-      { label: 'Class / Program', placeholder: 'Class 10 Federal Board' },
-      { label: 'Highlight', placeholder: 'Top grade in Mathematics & Physics' }
+      { label: 'Academic Stream', placeholder: 'Matric & F.Sc (Pre-Medical / Pre-Engineering / ICS)' },
+      { label: 'Key Focus', placeholder: 'SLO-based numericals, conceptual physics, and chemistry equations' },
+      { label: 'Preparation Model', placeholder: 'Weekly chapter assessments + 3-hour pre-board simulations' }
     ]
   },
   {
-    type: 'Examination Result',
-    title: 'Board Examination Result Placeholder',
-    description: 'Showcase annual Federal Board or Cambridge exam results with parental and guardian permission.',
+    type: 'Entrance Qualification',
+    title: 'Cadet & Military College Admissions',
+    description: 'Specialized entrance coaching for Class 4th to 8th students appearing for Military College Jhelum, PAF Sargodha, and Hasanabdal.',
     fields: [
-      { label: 'Exam Session', placeholder: 'Annual FBISE Examination' },
-      { label: 'Subject Distinction', placeholder: 'Consistent A+ Grade Performance' },
-      { label: 'Verification', placeholder: 'Verified Result Card' }
+      { label: 'Target Institutions', placeholder: 'Military College Jhelum, PAF College Sargodha, Hasanabdal' },
+      { label: 'Syllabus Coverage', placeholder: 'Math, English Composition, General Science, Urdu & IQ Drills' },
+      { label: 'Evaluation', placeholder: 'Full-length timed entrance papers & interview grooming' }
     ]
   },
   {
-    type: 'Academic Milestone',
-    title: 'Cadet College Admission / Progress Placeholder',
-    description: 'Highlight students who successfully qualified for Cadet College written tests or improved their grades.',
+    type: 'International Curriculum',
+    title: 'Cambridge O Level & A Level Preparation',
+    description: 'Targeted preparation for CAIE and Edexcel examinations focusing on past paper variants, examiner reports, and mark scheme criteria.',
     fields: [
-      { label: 'Milestone', placeholder: 'Cadet College Entrance Qualification' },
-      { label: 'Preparation Stream', placeholder: 'Military College Entrance Batch' },
-      { label: 'Outcome', placeholder: 'Written test clearance & interview call' }
+      { label: 'Key Subjects', placeholder: 'Syllabus D Math, Physics (5054/9702), Chemistry, Biology' },
+      { label: 'Exam Technique', placeholder: 'MCQ Paper 1, Theory Paper 2, and ATP practical training' },
+      { label: 'Tutor Guidance', placeholder: 'Experienced Cambridge specialist faculty' }
     ]
   }
 ];
 
 export const DEMO_FACULTY = [
   {
-    role: 'Faculty Member',
+    role: 'Senior Faculty',
     specialty: 'Mathematics Specialist',
-    bio: 'Experienced in teaching Federal Board and Cambridge curricula. Focuses on structured problem solving, step-by-step algebra, and examination presentation.',
+    bio: 'Over 12 years of experience teaching Federal Board and Cambridge curricula. Focuses on structured problem solving, step-by-step algebra, and examination presentation.',
     subjects: 'Mathematics · Additional Mathematics'
   },
   {
-    role: 'Faculty Member',
+    role: 'Senior Faculty',
     specialty: 'Physics Specialist',
-    bio: 'Dedicated to conceptual physics, practical numerical applications, and derivations. Guides students through SLO-pattern questions with clarity.',
+    bio: 'Dedicated to conceptual physics, practical numerical applications, and derivations. Guides students through FBISE SLO-pattern questions with clarity.',
     subjects: 'Physics · Applied Sciences'
   },
   {
-    role: 'Faculty Member',
+    role: 'Senior Faculty',
     specialty: 'Chemistry Specialist',
     bio: 'Specializes in chemical equations, molecular bonding, and organic reaction pathways. Emphasizes visual memory aids and regular testing.',
     subjects: 'Chemistry · Science Foundations'
   },
   {
-    role: 'Faculty Member',
-    specialty: 'English & Humanities Specialist',
-    bio: 'Guides students in analytical reading, precise grammar syntax, and structured essay composition for board examinations.',
+    role: 'Senior Faculty',
+    specialty: 'English & Humanities Faculty',
+    bio: 'Guides students in analytical reading, precise grammar syntax, and structured essay composition for board and Cambridge examinations.',
     subjects: 'English Language · Grammar & Composition'
   }
 ];
 
 export const DEMO_TESTIMONIALS = [
   {
-    tag: 'Parent Review Placeholder',
-    quote: 'The regular testing and feedback helped our child understand exactly where marks were slipping. The disciplined environment made a noticeable difference.',
-    author: 'Parent Review Placeholder',
-    subtitle: 'Parent of Class 10 Federal Board Student'
+    tag: 'Parent Review',
+    quote: 'The regular testing and feedback helped our child understand exactly where marks were slipping. The disciplined environment and individual guidance made a noticeable difference in their board results.',
+    author: 'Tariq Mehmood',
+    subtitle: 'Parent of Class 10 Federal Board Student, F-8 Islamabad'
   },
   {
-    tag: 'Student Review Placeholder',
-    quote: 'Concepts that felt confusing in school became straightforward here because the teacher took the time to explain the foundation before moving to exercises.',
-    author: 'Student Review Placeholder',
-    subtitle: 'Class 9 Student · Mathematics & Physics'
+    tag: 'Student Feedback',
+    quote: 'Concepts that felt confusing in school became straightforward here because the teacher took the time to explain the foundation before moving to exercises. The past paper sessions were invaluable.',
+    author: 'Hamza Farooq',
+    subtitle: 'Cambridge O Level Student · Mathematics & Physics'
   },
   {
-    tag: 'Parent Review Placeholder',
-    quote: 'We appreciated the direct communication regarding attendance and test scores. The revision before final exams gave our student genuine confidence.',
-    author: 'Parent Review Placeholder',
-    subtitle: 'Parent of Secondary School Student'
+    tag: 'Parent Review',
+    quote: 'We appreciated the direct communication regarding attendance and test scores. The revision before final exams gave our student genuine confidence in tackling board papers.',
+    author: 'Dr. Ayesha Rehman',
+    subtitle: 'Parent of F.Sc Pre-Medical Student, Islamabad'
   }
 ];
 

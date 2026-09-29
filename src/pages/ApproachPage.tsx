@@ -167,7 +167,7 @@ export const ApproachPage: React.FC<ApproachPageProps> = ({ onNavigate }) => {
               Experience the Leads Academy method firsthand.
             </h3>
             <p className="text-xs text-blue-800">
-              Visit our F-8/1 campus for a syllabus walkthrough and diagnostic session.
+              Visit our F-8/1 campus for a syllabus walkthrough, class orientation, and academic counselling.
             </p>
           </div>
 
